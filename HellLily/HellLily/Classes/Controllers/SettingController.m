@@ -19,7 +19,7 @@
 {
     [super viewDidLoad];
 	self.title = @"Second Controller";
-    self.view.backgroundColor = [UIColor orangeColor];
+    self.view.backgroundColor = [UIColor whiteColor];
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Back"
                                                                              style:UIBarButtonItemStylePlain
                                                                             target:self
@@ -29,14 +29,12 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    self.navigationController.navigationBarHidden = false;   
 }
 
 - (void)onBack
 {
     [self.navigationController popViewControllerAnimated:YES];
     [[NSNotificationCenter defaultCenter] postNotificationName:@"ShowSideMenu" object:nil];
-
 }
 
 @end

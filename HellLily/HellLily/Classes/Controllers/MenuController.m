@@ -95,6 +95,7 @@
     if (indexPath.section == 0 && indexPath.row == 0) {
         HomeController *homeViewController = [[HomeController alloc] init];
         navigationController.viewControllers = @[homeViewController];
+        [self.frostedViewController hideMenuViewController];
     } else {//if (indexPath.section == 1 && indexPath.row == 0) {
         SettingController *secondViewController = [[SettingController alloc] init];
         [self.frostedViewController.navigationController pushViewController:secondViewController animated:YES];
@@ -103,7 +104,6 @@
 //        SecondViewController *secondViewController = [[SecondViewController alloc] init];
 //        navigationController.viewControllers = @[secondViewController];
 //    }
-    [self.frostedViewController hideMenuViewController];
 }
 
 #pragma mark -

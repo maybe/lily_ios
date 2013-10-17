@@ -23,7 +23,7 @@
     [super viewDidLoad];
     [self.view addGestureRecognizer:[[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panGestureRecognized:)]];
     
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(showMenu) name:@"ShowSideMenu" object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(showSideMenu) name:@"ShowSideMenu" object:nil];
 }
 
 - (void)dealloc
@@ -34,6 +34,12 @@
 - (void)showMenu
 {
     [self.frostedViewController presentMenuViewController];
+}
+
+- (void)showSideMenu
+{
+    [self.frostedViewController showContainerImmediately];
+
 }
 
 #pragma mark -
