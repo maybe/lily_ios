@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		14A6F05820C940E6A436497A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F54954DA51F942629C446F07 /* libPods.a */; };
+		BA61B1B01811908700B2E92C /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = BA61B1AF1811908700B2E92C /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BA61B1B2181192F300B2E92C /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BA61B1B1181192F300B2E92C /* libicucore.dylib */; };
 		BAC52C43180EF1AE00E4E265 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC52C42180EF1AE00E4E265 /* Foundation.framework */; };
 		BAC52C45180EF1AF00E4E265 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC52C44180EF1AF00E4E265 /* CoreGraphics.framework */; };
 		BAC52C47180EF1AF00E4E265 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC52C46180EF1AF00E4E265 /* UIKit.framework */; };
@@ -42,6 +44,9 @@
 
 /* Begin PBXFileReference section */
 		4FDC8E5A9F23477BBA5CE771 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		BA61B1AE1811908700B2E92C /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		BA61B1AF1811908700B2E92C /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		BA61B1B1181192F300B2E92C /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		BAC52C3F180EF1AE00E4E265 /* HellLily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HellLily.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC52C42180EF1AE00E4E265 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BAC52C44180EF1AF00E4E265 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -82,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA61B1B2181192F300B2E92C /* libicucore.dylib in Frameworks */,
 				BAC52C45180EF1AF00E4E265 /* CoreGraphics.framework in Frameworks */,
 				BAC52C47180EF1AF00E4E265 /* UIKit.framework in Frameworks */,
 				BAC52C43180EF1AE00E4E265 /* Foundation.framework in Frameworks */,
@@ -102,6 +108,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA61B1AC1811901B00B2E92C /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				BA61B1AD1811908700B2E92C /* RegexKitLite */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		BA61B1AD1811908700B2E92C /* RegexKitLite */ = {
+			isa = PBXGroup;
+			children = (
+				BA61B1AE1811908700B2E92C /* RegexKitLite.h */,
+				BA61B1AF1811908700B2E92C /* RegexKitLite.m */,
+			);
+			name = RegexKitLite;
+			path = Lib/RegexKitLite;
+			sourceTree = "<group>";
+		};
 		BAC52C36180EF1AE00E4E265 = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +149,7 @@
 		BAC52C41180EF1AE00E4E265 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BA61B1B1181192F300B2E92C /* libicucore.dylib */,
 				BAC52C42180EF1AE00E4E265 /* Foundation.framework */,
 				BAC52C44180EF1AF00E4E265 /* CoreGraphics.framework */,
 				BAC52C46180EF1AF00E4E265 /* UIKit.framework */,
@@ -138,8 +163,9 @@
 			isa = PBXGroup;
 			children = (
 				BAC52C71180F0E9F00E4E265 /* Classes */,
-				BAC52C54180EF1AF00E4E265 /* Images.xcassets */,
 				BAC52C49180EF1AF00E4E265 /* Supporting Files */,
+				BA61B1AC1811901B00B2E92C /* Libs */,
+				BAC52C54180EF1AF00E4E265 /* Images.xcassets */,
 			);
 			path = HellLily;
 			sourceTree = "<group>";
@@ -355,6 +381,7 @@
 				BAC52C8F18103F5600E4E265 /* UIViewController+Autorotate.m in Sources */,
 				BAC52C7F180F10F700E4E265 /* MenuController.m in Sources */,
 				BAC52C7E180F10F700E4E265 /* HomeController.m in Sources */,
+				BA61B1B01811908700B2E92C /* RegexKitLite.m in Sources */,
 				BAC52C74180F0EBD00E4E265 /* AppDelegate.m in Sources */,
 				BAC52C92181045E100E4E265 /* TopNaviController.m in Sources */,
 				BAC52C4F180EF1AF00E4E265 /* main.m in Sources */,
