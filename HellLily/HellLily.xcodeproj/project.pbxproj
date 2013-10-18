@@ -10,41 +10,32 @@
 		14A6F05820C940E6A436497A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F54954DA51F942629C446F07 /* libPods.a */; };
 		BA61B1B01811908700B2E92C /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = BA61B1AF1811908700B2E92C /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BA61B1B2181192F300B2E92C /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BA61B1B1181192F300B2E92C /* libicucore.dylib */; };
+		BA61B1F318119EDC00B2E92C /* UINavigationController+Autorotate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA61B1F018119EDC00B2E92C /* UINavigationController+Autorotate.m */; };
+		BA61B1F418119EDC00B2E92C /* UIViewController+Autorotate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA61B1F218119EDC00B2E92C /* UIViewController+Autorotate.m */; };
 		BAC52C43180EF1AE00E4E265 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC52C42180EF1AE00E4E265 /* Foundation.framework */; };
 		BAC52C45180EF1AF00E4E265 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC52C44180EF1AF00E4E265 /* CoreGraphics.framework */; };
 		BAC52C47180EF1AF00E4E265 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC52C46180EF1AF00E4E265 /* UIKit.framework */; };
 		BAC52C4D180EF1AF00E4E265 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAC52C4B180EF1AF00E4E265 /* InfoPlist.strings */; };
 		BAC52C4F180EF1AF00E4E265 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC52C4E180EF1AF00E4E265 /* main.m */; };
 		BAC52C55180EF1AF00E4E265 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAC52C54180EF1AF00E4E265 /* Images.xcassets */; };
-		BAC52C5C180EF1AF00E4E265 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC52C5B180EF1AF00E4E265 /* XCTest.framework */; };
-		BAC52C5D180EF1AF00E4E265 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC52C42180EF1AE00E4E265 /* Foundation.framework */; };
-		BAC52C5E180EF1AF00E4E265 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC52C46180EF1AF00E4E265 /* UIKit.framework */; };
 		BAC52C74180F0EBD00E4E265 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC52C73180F0EBD00E4E265 /* AppDelegate.m */; };
 		BAC52C7E180F10F700E4E265 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC52C77180F10F700E4E265 /* HomeController.m */; };
 		BAC52C7F180F10F700E4E265 /* MenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC52C79180F10F700E4E265 /* MenuController.m */; };
 		BAC52C80180F10F700E4E265 /* RootNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC52C7B180F10F700E4E265 /* RootNaviController.m */; };
 		BAC52C81180F10F700E4E265 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC52C7D180F10F700E4E265 /* SecondViewController.m */; };
 		BAC52C84180F175400E4E265 /* SettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC52C83180F175400E4E265 /* SettingController.m */; };
-		BAC52C8C18103AE200E4E265 /* UINavigationController+Autorotate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC52C8B18103AE200E4E265 /* UINavigationController+Autorotate.m */; };
-		BAC52C8F18103F5600E4E265 /* UIViewController+Autorotate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC52C8E18103F5600E4E265 /* UIViewController+Autorotate.m */; };
 		BAC52C92181045E100E4E265 /* TopNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC52C91181045E100E4E265 /* TopNaviController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		BAC52C5F180EF1AF00E4E265 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BAC52C37180EF1AE00E4E265 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BAC52C3E180EF1AE00E4E265;
-			remoteInfo = HellLily;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4FDC8E5A9F23477BBA5CE771 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		BA61B1AE1811908700B2E92C /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
 		BA61B1AF1811908700B2E92C /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
 		BA61B1B1181192F300B2E92C /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		BA61B1EF18119EDC00B2E92C /* UINavigationController+Autorotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+Autorotate.h"; path = "Classes/Common/Category/UINavigationController+Autorotate.h"; sourceTree = "<group>"; };
+		BA61B1F018119EDC00B2E92C /* UINavigationController+Autorotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+Autorotate.m"; path = "Classes/Common/Category/UINavigationController+Autorotate.m"; sourceTree = "<group>"; };
+		BA61B1F118119EDC00B2E92C /* UIViewController+Autorotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Autorotate.h"; path = "Classes/Common/Category/UIViewController+Autorotate.h"; sourceTree = "<group>"; };
+		BA61B1F218119EDC00B2E92C /* UIViewController+Autorotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Autorotate.m"; path = "Classes/Common/Category/UIViewController+Autorotate.m"; sourceTree = "<group>"; };
 		BAC52C3F180EF1AE00E4E265 /* HellLily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HellLily.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC52C42180EF1AE00E4E265 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BAC52C44180EF1AF00E4E265 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -54,7 +45,6 @@
 		BAC52C4E180EF1AF00E4E265 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BAC52C50180EF1AF00E4E265 /* HellLily-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HellLily-Prefix.pch"; sourceTree = "<group>"; };
 		BAC52C54180EF1AF00E4E265 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		BAC52C5A180EF1AF00E4E265 /* HellLilyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HellLilyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC52C5B180EF1AF00E4E265 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		BAC52C72180F0EBD00E4E265 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		BAC52C73180F0EBD00E4E265 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
@@ -68,10 +58,6 @@
 		BAC52C7D180F10F700E4E265 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = Classes/Controllers/SecondViewController.m; sourceTree = "<group>"; };
 		BAC52C82180F175400E4E265 /* SettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingController.h; path = Classes/Controllers/SettingController.h; sourceTree = "<group>"; };
 		BAC52C83180F175400E4E265 /* SettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingController.m; path = Classes/Controllers/SettingController.m; sourceTree = "<group>"; };
-		BAC52C8A18103AE200E4E265 /* UINavigationController+Autorotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+Autorotate.h"; path = "Classes/Common/Templates/UINavigationController+Autorotate.h"; sourceTree = "<group>"; };
-		BAC52C8B18103AE200E4E265 /* UINavigationController+Autorotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+Autorotate.m"; path = "Classes/Common/Templates/UINavigationController+Autorotate.m"; sourceTree = "<group>"; };
-		BAC52C8D18103F5600E4E265 /* UIViewController+Autorotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Autorotate.h"; path = "Classes/Common/Templates/UIViewController+Autorotate.h"; sourceTree = "<group>"; };
-		BAC52C8E18103F5600E4E265 /* UIViewController+Autorotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Autorotate.m"; path = "Classes/Common/Templates/UIViewController+Autorotate.m"; sourceTree = "<group>"; };
 		BAC52C90181045E100E4E265 /* TopNaviController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopNaviController.h; path = Classes/Controllers/TopNaviController.h; sourceTree = "<group>"; };
 		BAC52C91181045E100E4E265 /* TopNaviController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopNaviController.m; path = Classes/Controllers/TopNaviController.m; sourceTree = "<group>"; };
 		F54954DA51F942629C446F07 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,16 +73,6 @@
 				BAC52C47180EF1AF00E4E265 /* UIKit.framework in Frameworks */,
 				BAC52C43180EF1AE00E4E265 /* Foundation.framework in Frameworks */,
 				14A6F05820C940E6A436497A /* libPods.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BAC52C57180EF1AF00E4E265 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BAC52C5C180EF1AF00E4E265 /* XCTest.framework in Frameworks */,
-				BAC52C5E180EF1AF00E4E265 /* UIKit.framework in Frameworks */,
-				BAC52C5D180EF1AF00E4E265 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +118,6 @@
 			isa = PBXGroup;
 			children = (
 				BAC52C3F180EF1AE00E4E265 /* HellLily.app */,
-				BAC52C5A180EF1AF00E4E265 /* HellLilyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -224,10 +199,10 @@
 		BAC52C86181039E500E4E265 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				BAC52C8D18103F5600E4E265 /* UIViewController+Autorotate.h */,
-				BAC52C8E18103F5600E4E265 /* UIViewController+Autorotate.m */,
-				BAC52C8A18103AE200E4E265 /* UINavigationController+Autorotate.h */,
-				BAC52C8B18103AE200E4E265 /* UINavigationController+Autorotate.m */,
+				BA61B1EF18119EDC00B2E92C /* UINavigationController+Autorotate.h */,
+				BA61B1F018119EDC00B2E92C /* UINavigationController+Autorotate.m */,
+				BA61B1F118119EDC00B2E92C /* UIViewController+Autorotate.h */,
+				BA61B1F218119EDC00B2E92C /* UIViewController+Autorotate.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -254,24 +229,6 @@
 			productReference = BAC52C3F180EF1AE00E4E265 /* HellLily.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BAC52C59180EF1AF00E4E265 /* HellLilyTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BAC52C6E180EF1AF00E4E265 /* Build configuration list for PBXNativeTarget "HellLilyTests" */;
-			buildPhases = (
-				BAC52C56180EF1AF00E4E265 /* Sources */,
-				BAC52C57180EF1AF00E4E265 /* Frameworks */,
-				BAC52C58180EF1AF00E4E265 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BAC52C60180EF1AF00E4E265 /* PBXTargetDependency */,
-			);
-			name = HellLilyTests;
-			productName = HellLilyTests;
-			productReference = BAC52C5A180EF1AF00E4E265 /* HellLilyTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -280,11 +237,6 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = VeryPanda;
-				TargetAttributes = {
-					BAC52C59180EF1AF00E4E265 = {
-						TestTargetID = BAC52C3E180EF1AE00E4E265;
-					};
-				};
 			};
 			buildConfigurationList = BAC52C3A180EF1AE00E4E265 /* Build configuration list for PBXProject "HellLily" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -299,7 +251,6 @@
 			projectRoot = "";
 			targets = (
 				BAC52C3E180EF1AE00E4E265 /* HellLily */,
-				BAC52C59180EF1AF00E4E265 /* HellLilyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -311,13 +262,6 @@
 			files = (
 				BAC52C4D180EF1AF00E4E265 /* InfoPlist.strings in Resources */,
 				BAC52C55180EF1AF00E4E265 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BAC52C58180EF1AF00E4E265 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,36 +305,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAC52C8F18103F5600E4E265 /* UIViewController+Autorotate.m in Sources */,
 				BAC52C7F180F10F700E4E265 /* MenuController.m in Sources */,
 				BAC52C7E180F10F700E4E265 /* HomeController.m in Sources */,
 				BA61B1B01811908700B2E92C /* RegexKitLite.m in Sources */,
 				BAC52C74180F0EBD00E4E265 /* AppDelegate.m in Sources */,
+				BA61B1F418119EDC00B2E92C /* UIViewController+Autorotate.m in Sources */,
 				BAC52C92181045E100E4E265 /* TopNaviController.m in Sources */,
 				BAC52C4F180EF1AF00E4E265 /* main.m in Sources */,
 				BAC52C80180F10F700E4E265 /* RootNaviController.m in Sources */,
 				BAC52C81180F10F700E4E265 /* SecondViewController.m in Sources */,
-				BAC52C8C18103AE200E4E265 /* UINavigationController+Autorotate.m in Sources */,
 				BAC52C84180F175400E4E265 /* SettingController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BAC52C56180EF1AF00E4E265 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				BA61B1F318119EDC00B2E92C /* UINavigationController+Autorotate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BAC52C60180EF1AF00E4E265 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BAC52C3E180EF1AE00E4E265 /* HellLily */;
-			targetProxy = BAC52C5F180EF1AF00E4E265 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BAC52C4B180EF1AF00E4E265 /* InfoPlist.strings */ = {
@@ -506,48 +435,6 @@
 			};
 			name = Release;
 		};
-		BAC52C6F180EF1AF00E4E265 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HellLily.app/HellLily";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HellLily/HellLily-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "HellLilyTests/HellLilyTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		BAC52C70180EF1AF00E4E265 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HellLily.app/HellLily";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HellLily/HellLily-Prefix.pch";
-				INFOPLIST_FILE = "HellLilyTests/HellLilyTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -565,15 +452,6 @@
 			buildConfigurations = (
 				BAC52C6C180EF1AF00E4E265 /* Debug */,
 				BAC52C6D180EF1AF00E4E265 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BAC52C6E180EF1AF00E4E265 /* Build configuration list for PBXNativeTarget "HellLilyTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BAC52C6F180EF1AF00E4E265 /* Debug */,
-				BAC52C70180EF1AF00E4E265 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
