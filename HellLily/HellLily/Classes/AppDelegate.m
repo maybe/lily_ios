@@ -25,7 +25,7 @@
     
     // Create frosted view controller
     REFrostedViewController *frostedViewController = [[REFrostedViewController alloc] initWithContentViewController:navigationController menuViewController:menuController];
-    frostedViewController.direction = REFrostedViewControllerDirectionLeft;
+    frostedViewController.direction = REFrostedViewControllerDirectionRight;
     frostedViewController.liveBlurBackgroundStyle = REFrostedViewControllerLiveBackgroundStyleLight;
     frostedViewController.animationDuration = 0.22;
     frostedViewController.limitMenuViewSize = true;

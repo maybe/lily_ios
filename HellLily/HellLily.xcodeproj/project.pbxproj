@@ -19,8 +19,6 @@
 		BAC52C5C180EF1AF00E4E265 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC52C5B180EF1AF00E4E265 /* XCTest.framework */; };
 		BAC52C5D180EF1AF00E4E265 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC52C42180EF1AE00E4E265 /* Foundation.framework */; };
 		BAC52C5E180EF1AF00E4E265 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC52C46180EF1AF00E4E265 /* UIKit.framework */; };
-		BAC52C66180EF1AF00E4E265 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAC52C64180EF1AF00E4E265 /* InfoPlist.strings */; };
-		BAC52C68180EF1AF00E4E265 /* HellLilyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC52C67180EF1AF00E4E265 /* HellLilyTests.m */; };
 		BAC52C74180F0EBD00E4E265 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC52C73180F0EBD00E4E265 /* AppDelegate.m */; };
 		BAC52C7E180F10F700E4E265 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC52C77180F10F700E4E265 /* HomeController.m */; };
 		BAC52C7F180F10F700E4E265 /* MenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC52C79180F10F700E4E265 /* MenuController.m */; };
@@ -58,9 +56,6 @@
 		BAC52C54180EF1AF00E4E265 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BAC52C5A180EF1AF00E4E265 /* HellLilyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HellLilyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC52C5B180EF1AF00E4E265 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		BAC52C63180EF1AF00E4E265 /* HellLilyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HellLilyTests-Info.plist"; sourceTree = "<group>"; };
-		BAC52C65180EF1AF00E4E265 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BAC52C67180EF1AF00E4E265 /* HellLilyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HellLilyTests.m; sourceTree = "<group>"; };
 		BAC52C72180F0EBD00E4E265 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		BAC52C73180F0EBD00E4E265 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
 		BAC52C76180F10F700E4E265 /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeController.h; path = Classes/Controllers/HomeController.h; sourceTree = "<group>"; };
@@ -126,11 +121,17 @@
 			path = Lib/RegexKitLite;
 			sourceTree = "<group>";
 		};
+		BA61B1B318119CA000B2E92C /* System */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = System;
+			sourceTree = "<group>";
+		};
 		BAC52C36180EF1AE00E4E265 = {
 			isa = PBXGroup;
 			children = (
 				BAC52C48180EF1AF00E4E265 /* HellLily */,
-				BAC52C61180EF1AF00E4E265 /* HellLilyTests */,
 				BAC52C41180EF1AE00E4E265 /* Frameworks */,
 				BAC52C40180EF1AE00E4E265 /* Products */,
 				4FDC8E5A9F23477BBA5CE771 /* Pods.xcconfig */,
@@ -181,30 +182,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		BAC52C61180EF1AF00E4E265 /* HellLilyTests */ = {
-			isa = PBXGroup;
-			children = (
-				BAC52C67180EF1AF00E4E265 /* HellLilyTests.m */,
-				BAC52C62180EF1AF00E4E265 /* Supporting Files */,
-			);
-			path = HellLilyTests;
-			sourceTree = "<group>";
-		};
-		BAC52C62180EF1AF00E4E265 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				BAC52C63180EF1AF00E4E265 /* HellLilyTests-Info.plist */,
-				BAC52C64180EF1AF00E4E265 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		BAC52C71180F0E9F00E4E265 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				BAC52C72180F0EBD00E4E265 /* AppDelegate.h */,
 				BAC52C73180F0EBD00E4E265 /* AppDelegate.m */,
 				BAC52C85181039D700E4E265 /* Common */,
+				BA61B1B318119CA000B2E92C /* System */,
 				BAC52C75180F10E100E4E265 /* Controllers */,
 			);
 			name = Classes;
@@ -232,12 +216,12 @@
 		BAC52C85181039D700E4E265 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				BAC52C86181039E500E4E265 /* Templates */,
+				BAC52C86181039E500E4E265 /* Category */,
 			);
 			name = Common;
 			sourceTree = "<group>";
 		};
-		BAC52C86181039E500E4E265 /* Templates */ = {
+		BAC52C86181039E500E4E265 /* Category */ = {
 			isa = PBXGroup;
 			children = (
 				BAC52C8D18103F5600E4E265 /* UIViewController+Autorotate.h */,
@@ -245,7 +229,7 @@
 				BAC52C8A18103AE200E4E265 /* UINavigationController+Autorotate.h */,
 				BAC52C8B18103AE200E4E265 /* UINavigationController+Autorotate.m */,
 			);
-			name = Templates;
+			name = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,7 +318,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAC52C66180EF1AF00E4E265 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,7 +379,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAC52C68180EF1AF00E4E265 /* HellLilyTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,14 +397,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				BAC52C4C180EF1AF00E4E265 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		BAC52C64180EF1AF00E4E265 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BAC52C65180EF1AF00E4E265 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
