@@ -12,6 +12,10 @@
 		BA61B1B2181192F300B2E92C /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BA61B1B1181192F300B2E92C /* libicucore.dylib */; };
 		BA61B1F318119EDC00B2E92C /* UINavigationController+Autorotate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA61B1F018119EDC00B2E92C /* UINavigationController+Autorotate.m */; };
 		BA61B1F418119EDC00B2E92C /* UIViewController+Autorotate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA61B1F218119EDC00B2E92C /* UIViewController+Autorotate.m */; };
+		BA61B1F71811A11700B2E92C /* NSDictionary-DeepMutableCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA61B1F61811A11700B2E92C /* NSDictionary-DeepMutableCopy.m */; };
+		BA61B1FE1811A98E00B2E92C /* NetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA61B1FD1811A98E00B2E92C /* NetManager.m */; };
+		BA61B2011811F7DB00B2E92C /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = BA61B2001811F7DB00B2E92C /* Common.m */; };
+		BA61B2031811F9BC00B2E92C /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA61B2021811F9BC00B2E92C /* AssetsLibrary.framework */; };
 		BAC52C43180EF1AE00E4E265 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC52C42180EF1AE00E4E265 /* Foundation.framework */; };
 		BAC52C45180EF1AF00E4E265 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC52C44180EF1AF00E4E265 /* CoreGraphics.framework */; };
 		BAC52C47180EF1AF00E4E265 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC52C46180EF1AF00E4E265 /* UIKit.framework */; };
@@ -36,6 +40,13 @@
 		BA61B1F018119EDC00B2E92C /* UINavigationController+Autorotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+Autorotate.m"; path = "Classes/Common/Category/UINavigationController+Autorotate.m"; sourceTree = "<group>"; };
 		BA61B1F118119EDC00B2E92C /* UIViewController+Autorotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Autorotate.h"; path = "Classes/Common/Category/UIViewController+Autorotate.h"; sourceTree = "<group>"; };
 		BA61B1F218119EDC00B2E92C /* UIViewController+Autorotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Autorotate.m"; path = "Classes/Common/Category/UIViewController+Autorotate.m"; sourceTree = "<group>"; };
+		BA61B1F51811A11700B2E92C /* NSDictionary-DeepMutableCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary-DeepMutableCopy.h"; path = "Classes/Common/Category/NSDictionary-DeepMutableCopy.h"; sourceTree = "<group>"; };
+		BA61B1F61811A11700B2E92C /* NSDictionary-DeepMutableCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary-DeepMutableCopy.m"; path = "Classes/Common/Category/NSDictionary-DeepMutableCopy.m"; sourceTree = "<group>"; };
+		BA61B1FC1811A98E00B2E92C /* NetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetManager.h; sourceTree = "<group>"; };
+		BA61B1FD1811A98E00B2E92C /* NetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetManager.m; sourceTree = "<group>"; };
+		BA61B1FF1811F7DB00B2E92C /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Common.h; path = Classes/Common/Common.h; sourceTree = "<group>"; };
+		BA61B2001811F7DB00B2E92C /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Common.m; path = Classes/Common/Common.m; sourceTree = "<group>"; };
+		BA61B2021811F9BC00B2E92C /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		BAC52C3F180EF1AE00E4E265 /* HellLily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HellLily.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC52C42180EF1AE00E4E265 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BAC52C44180EF1AF00E4E265 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -68,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA61B2031811F9BC00B2E92C /* AssetsLibrary.framework in Frameworks */,
 				BA61B1B2181192F300B2E92C /* libicucore.dylib in Frameworks */,
 				BAC52C45180EF1AF00E4E265 /* CoreGraphics.framework in Frameworks */,
 				BAC52C47180EF1AF00E4E265 /* UIKit.framework in Frameworks */,
@@ -100,8 +112,19 @@
 		BA61B1B318119CA000B2E92C /* System */ = {
 			isa = PBXGroup;
 			children = (
+				BA61B1F81811A4D600B2E92C /* Net */,
 			);
 			name = System;
+			sourceTree = "<group>";
+		};
+		BA61B1F81811A4D600B2E92C /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				BA61B1FC1811A98E00B2E92C /* NetManager.h */,
+				BA61B1FD1811A98E00B2E92C /* NetManager.m */,
+			);
+			name = Net;
+			path = Classes/System/Net;
 			sourceTree = "<group>";
 		};
 		BAC52C36180EF1AE00E4E265 = {
@@ -125,6 +148,7 @@
 		BAC52C41180EF1AE00E4E265 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BA61B2021811F9BC00B2E92C /* AssetsLibrary.framework */,
 				BA61B1B1181192F300B2E92C /* libicucore.dylib */,
 				BAC52C42180EF1AE00E4E265 /* Foundation.framework */,
 				BAC52C44180EF1AF00E4E265 /* CoreGraphics.framework */,
@@ -191,6 +215,8 @@
 		BAC52C85181039D700E4E265 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				BA61B1FF1811F7DB00B2E92C /* Common.h */,
+				BA61B2001811F7DB00B2E92C /* Common.m */,
 				BAC52C86181039E500E4E265 /* Category */,
 			);
 			name = Common;
@@ -203,6 +229,8 @@
 				BA61B1F018119EDC00B2E92C /* UINavigationController+Autorotate.m */,
 				BA61B1F118119EDC00B2E92C /* UIViewController+Autorotate.h */,
 				BA61B1F218119EDC00B2E92C /* UIViewController+Autorotate.m */,
+				BA61B1F51811A11700B2E92C /* NSDictionary-DeepMutableCopy.h */,
+				BA61B1F61811A11700B2E92C /* NSDictionary-DeepMutableCopy.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -305,11 +333,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA61B1F71811A11700B2E92C /* NSDictionary-DeepMutableCopy.m in Sources */,
 				BAC52C7F180F10F700E4E265 /* MenuController.m in Sources */,
 				BAC52C7E180F10F700E4E265 /* HomeController.m in Sources */,
 				BA61B1B01811908700B2E92C /* RegexKitLite.m in Sources */,
 				BAC52C74180F0EBD00E4E265 /* AppDelegate.m in Sources */,
 				BA61B1F418119EDC00B2E92C /* UIViewController+Autorotate.m in Sources */,
+				BA61B2011811F7DB00B2E92C /* Common.m in Sources */,
+				BA61B1FE1811A98E00B2E92C /* NetManager.m in Sources */,
 				BAC52C92181045E100E4E265 /* TopNaviController.m in Sources */,
 				BAC52C4F180EF1AF00E4E265 /* main.m in Sources */,
 				BAC52C80180F10F700E4E265 /* RootNaviController.m in Sources */,
