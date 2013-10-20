@@ -16,6 +16,18 @@
 		BA61B1FE1811A98E00B2E92C /* NetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA61B1FD1811A98E00B2E92C /* NetManager.m */; };
 		BA61B2011811F7DB00B2E92C /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = BA61B2001811F7DB00B2E92C /* Common.m */; };
 		BA61B2031811F9BC00B2E92C /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA61B2021811F9BC00B2E92C /* AssetsLibrary.framework */; };
+		BA61B2061812ECA500B2E92C /* TopTenController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA61B2051812ECA500B2E92C /* TopTenController.m */; };
+		BA61B2091812F6CE00B2E92C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA61B2081812F6CE00B2E92C /* MobileCoreServices.framework */; };
+		BA61B20B1812F75C00B2E92C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA61B20A1812F75C00B2E92C /* SystemConfiguration.framework */; };
+		BA61B20D1812F76600B2E92C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA61B20C1812F76600B2E92C /* Security.framework */; };
+		BA61B20F1812F77600B2E92C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA61B20E1812F77600B2E92C /* CoreLocation.framework */; };
+		BA61B2121812FEE700B2E92C /* StringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BA61B2111812FEE700B2E92C /* StringUtil.m */; };
+		BA61B2141812FF7C00B2E92C /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BA61B2131812FF7C00B2E92C /* libiconv.dylib */; };
+		BA61B2181813062C00B2E92C /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = BA61B2171813062C00B2E92C /* User.m */; };
+		BA61B21B1813063900B2E92C /* ArticleTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = BA61B21A1813063900B2E92C /* ArticleTitle.m */; };
+		BA61B21E1813069600B2E92C /* TopTenData.m in Sources */ = {isa = PBXBuildFile; fileRef = BA61B21D1813069600B2E92C /* TopTenData.m */; };
+		BA61B22218130F4700B2E92C /* ArticleTitleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA61B22118130F4700B2E92C /* ArticleTitleTableViewCell.m */; };
+		BA61B2251813131200B2E92C /* TopTenTitleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA61B2241813131200B2E92C /* TopTenTitleTableViewCell.m */; };
 		BAC52C43180EF1AE00E4E265 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC52C42180EF1AE00E4E265 /* Foundation.framework */; };
 		BAC52C45180EF1AF00E4E265 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC52C44180EF1AF00E4E265 /* CoreGraphics.framework */; };
 		BAC52C47180EF1AF00E4E265 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC52C46180EF1AF00E4E265 /* UIKit.framework */; };
@@ -47,6 +59,26 @@
 		BA61B1FF1811F7DB00B2E92C /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Common.h; path = Classes/Common/Common.h; sourceTree = "<group>"; };
 		BA61B2001811F7DB00B2E92C /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Common.m; path = Classes/Common/Common.m; sourceTree = "<group>"; };
 		BA61B2021811F9BC00B2E92C /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		BA61B2041812ECA500B2E92C /* TopTenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopTenController.h; path = Classes/Controllers/TopTenController.h; sourceTree = "<group>"; };
+		BA61B2051812ECA500B2E92C /* TopTenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopTenController.m; path = Classes/Controllers/TopTenController.m; sourceTree = "<group>"; };
+		BA61B2081812F6CE00B2E92C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		BA61B20A1812F75C00B2E92C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BA61B20C1812F76600B2E92C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BA61B20E1812F77600B2E92C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BA61B2101812FEE700B2E92C /* StringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StringUtil.h; path = Classes/Common/StringUtil.h; sourceTree = "<group>"; };
+		BA61B2111812FEE700B2E92C /* StringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StringUtil.m; path = Classes/Common/StringUtil.m; sourceTree = "<group>"; };
+		BA61B2131812FF7C00B2E92C /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		BA61B2151813010600B2E92C /* CommonDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonDef.h; path = Classes/Common/CommonDef.h; sourceTree = "<group>"; };
+		BA61B2161813062C00B2E92C /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = Classes/Models/User.h; sourceTree = "<group>"; };
+		BA61B2171813062C00B2E92C /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = Classes/Models/User.m; sourceTree = "<group>"; };
+		BA61B2191813063900B2E92C /* ArticleTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArticleTitle.h; path = Classes/Models/ArticleTitle.h; sourceTree = "<group>"; };
+		BA61B21A1813063900B2E92C /* ArticleTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArticleTitle.m; path = Classes/Models/ArticleTitle.m; sourceTree = "<group>"; };
+		BA61B21C1813069600B2E92C /* TopTenData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopTenData.h; path = Classes/Models/TopTenData.h; sourceTree = "<group>"; };
+		BA61B21D1813069600B2E92C /* TopTenData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopTenData.m; path = Classes/Models/TopTenData.m; sourceTree = "<group>"; };
+		BA61B22018130F4700B2E92C /* ArticleTitleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArticleTitleTableViewCell.h; path = Classes/Views/ArticleTitleTableViewCell.h; sourceTree = "<group>"; };
+		BA61B22118130F4700B2E92C /* ArticleTitleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArticleTitleTableViewCell.m; path = Classes/Views/ArticleTitleTableViewCell.m; sourceTree = "<group>"; };
+		BA61B2231813131200B2E92C /* TopTenTitleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopTenTitleTableViewCell.h; path = Classes/Views/TopTenTitleTableViewCell.h; sourceTree = "<group>"; };
+		BA61B2241813131200B2E92C /* TopTenTitleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopTenTitleTableViewCell.m; path = Classes/Views/TopTenTitleTableViewCell.m; sourceTree = "<group>"; };
 		BAC52C3F180EF1AE00E4E265 /* HellLily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HellLily.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC52C42180EF1AE00E4E265 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BAC52C44180EF1AF00E4E265 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,9 +111,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA61B2141812FF7C00B2E92C /* libiconv.dylib in Frameworks */,
+				BAC52C45180EF1AF00E4E265 /* CoreGraphics.framework in Frameworks */,
+				BA61B20F1812F77600B2E92C /* CoreLocation.framework in Frameworks */,
+				BA61B20D1812F76600B2E92C /* Security.framework in Frameworks */,
+				BA61B20B1812F75C00B2E92C /* SystemConfiguration.framework in Frameworks */,
+				BA61B2091812F6CE00B2E92C /* MobileCoreServices.framework in Frameworks */,
 				BA61B2031811F9BC00B2E92C /* AssetsLibrary.framework in Frameworks */,
 				BA61B1B2181192F300B2E92C /* libicucore.dylib in Frameworks */,
-				BAC52C45180EF1AF00E4E265 /* CoreGraphics.framework in Frameworks */,
 				BAC52C47180EF1AF00E4E265 /* UIKit.framework in Frameworks */,
 				BAC52C43180EF1AE00E4E265 /* Foundation.framework in Frameworks */,
 				14A6F05820C940E6A436497A /* libPods.a in Frameworks */,
@@ -127,6 +164,30 @@
 			path = Classes/System/Net;
 			sourceTree = "<group>";
 		};
+		BA61B2071812EEDA00B2E92C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BA61B2161813062C00B2E92C /* User.h */,
+				BA61B2171813062C00B2E92C /* User.m */,
+				BA61B21C1813069600B2E92C /* TopTenData.h */,
+				BA61B21D1813069600B2E92C /* TopTenData.m */,
+				BA61B2191813063900B2E92C /* ArticleTitle.h */,
+				BA61B21A1813063900B2E92C /* ArticleTitle.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BA61B21F18130F2E00B2E92C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA61B22018130F4700B2E92C /* ArticleTitleTableViewCell.h */,
+				BA61B22118130F4700B2E92C /* ArticleTitleTableViewCell.m */,
+				BA61B2231813131200B2E92C /* TopTenTitleTableViewCell.h */,
+				BA61B2241813131200B2E92C /* TopTenTitleTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		BAC52C36180EF1AE00E4E265 = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +209,11 @@
 		BAC52C41180EF1AE00E4E265 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BA61B2131812FF7C00B2E92C /* libiconv.dylib */,
+				BA61B20E1812F77600B2E92C /* CoreLocation.framework */,
+				BA61B20C1812F76600B2E92C /* Security.framework */,
+				BA61B20A1812F75C00B2E92C /* SystemConfiguration.framework */,
+				BA61B2081812F6CE00B2E92C /* MobileCoreServices.framework */,
 				BA61B2021811F9BC00B2E92C /* AssetsLibrary.framework */,
 				BA61B1B1181192F300B2E92C /* libicucore.dylib */,
 				BAC52C42180EF1AE00E4E265 /* Foundation.framework */,
@@ -189,6 +255,8 @@
 				BAC52C85181039D700E4E265 /* Common */,
 				BA61B1B318119CA000B2E92C /* System */,
 				BAC52C75180F10E100E4E265 /* Controllers */,
+				BA61B2071812EEDA00B2E92C /* Models */,
+				BA61B21F18130F2E00B2E92C /* Views */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -204,6 +272,8 @@
 				BAC52C7B180F10F700E4E265 /* RootNaviController.m */,
 				BAC52C90181045E100E4E265 /* TopNaviController.h */,
 				BAC52C91181045E100E4E265 /* TopNaviController.m */,
+				BA61B2041812ECA500B2E92C /* TopTenController.h */,
+				BA61B2051812ECA500B2E92C /* TopTenController.m */,
 				BAC52C7C180F10F700E4E265 /* SecondViewController.h */,
 				BAC52C7D180F10F700E4E265 /* SecondViewController.m */,
 				BAC52C82180F175400E4E265 /* SettingController.h */,
@@ -217,6 +287,9 @@
 			children = (
 				BA61B1FF1811F7DB00B2E92C /* Common.h */,
 				BA61B2001811F7DB00B2E92C /* Common.m */,
+				BA61B2151813010600B2E92C /* CommonDef.h */,
+				BA61B2101812FEE700B2E92C /* StringUtil.h */,
+				BA61B2111812FEE700B2E92C /* StringUtil.m */,
 				BAC52C86181039E500E4E265 /* Category */,
 			);
 			name = Common;
@@ -336,8 +409,12 @@
 				BA61B1F71811A11700B2E92C /* NSDictionary-DeepMutableCopy.m in Sources */,
 				BAC52C7F180F10F700E4E265 /* MenuController.m in Sources */,
 				BAC52C7E180F10F700E4E265 /* HomeController.m in Sources */,
+				BA61B2251813131200B2E92C /* TopTenTitleTableViewCell.m in Sources */,
+				BA61B21B1813063900B2E92C /* ArticleTitle.m in Sources */,
 				BA61B1B01811908700B2E92C /* RegexKitLite.m in Sources */,
+				BA61B2181813062C00B2E92C /* User.m in Sources */,
 				BAC52C74180F0EBD00E4E265 /* AppDelegate.m in Sources */,
+				BA61B22218130F4700B2E92C /* ArticleTitleTableViewCell.m in Sources */,
 				BA61B1F418119EDC00B2E92C /* UIViewController+Autorotate.m in Sources */,
 				BA61B2011811F7DB00B2E92C /* Common.m in Sources */,
 				BA61B1FE1811A98E00B2E92C /* NetManager.m in Sources */,
@@ -345,7 +422,10 @@
 				BAC52C4F180EF1AF00E4E265 /* main.m in Sources */,
 				BAC52C80180F10F700E4E265 /* RootNaviController.m in Sources */,
 				BAC52C81180F10F700E4E265 /* SecondViewController.m in Sources */,
+				BA61B2121812FEE700B2E92C /* StringUtil.m in Sources */,
+				BA61B21E1813069600B2E92C /* TopTenData.m in Sources */,
 				BAC52C84180F175400E4E265 /* SettingController.m in Sources */,
+				BA61B2061812ECA500B2E92C /* TopTenController.m in Sources */,
 				BA61B1F318119EDC00B2E92C /* UINavigationController+Autorotate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

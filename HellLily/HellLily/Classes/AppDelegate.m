@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "HomeController.h"
+#import "TopTenController.h"
 #import "MenuController.h"
 #import "RootNaviController.h"
 #import "TopNaviController.h"
@@ -20,7 +20,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     // Create content and menu controllers
-    RootNaviController *navigationController = [[RootNaviController alloc] initWithRootViewController:[[HomeController alloc] init]];
+    RootNaviController *navigationController = [[RootNaviController alloc] initWithRootViewController:[[TopTenController alloc] init]];
     MenuController *menuController = [[MenuController alloc] initWithStyle:UITableViewStylePlain];
     
     // Create frosted view controller

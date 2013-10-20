@@ -12,16 +12,18 @@
 
 @interface NetManager : NSObject
 {
-    AFHTTPRequestOperationManager *reqOpMgr;
+    AFHTTPSessionManager *sessionMgr;
     NSString* host;
 }
 
-@property (strong, nonatomic) AFHTTPRequestOperationManager *reqOpMgr;
+@property (strong, nonatomic) AFHTTPSessionManager *sessionMgr;
 @property (strong, nonatomic) NSString* host;
 
 
 + (id)sharedInstance;
 - (id)init;
 - (void)InitMgrs;
+
+- (void)requestURL:(NSString*)aUrl parameters:(NSDictionary*)dic withType:(RequestNetType)type;
 
 @end
