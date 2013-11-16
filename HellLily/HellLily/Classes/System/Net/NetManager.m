@@ -12,7 +12,7 @@
 #import "User.h"
 
 @implementation NetManager
-@synthesize sessionMgr,host;
+@synthesize sessionMgr;
 
 + (id)sharedInstance
 {
@@ -24,12 +24,12 @@
 - (id)init{
     if(self=[super init])
     {
-        [self InitMgrs];
+      [self InitMgr];
     }
     return self;
 }
 
-- (void)InitMgrs
+- (void)InitMgr
 {
     NSURL *baseURL = [NSURL URLWithString:@"http://bbs.nju.edu.cn/"];
     sessionMgr = [[AFHTTPSessionManager alloc] initWithBaseURL: baseURL];
@@ -81,7 +81,7 @@
     User* user = [User sharedInstance];
     [user.ttd.titleList removeAllObjects];
     
-    for (int i = 0; i < ttArray.count; i++) {
+    for (NSUInteger i = 0; i < ttArray.count; i++) {
         ArticleTitle *articleTitle = [[ArticleTitle alloc]init];
         NSString* ttString = [ttArray objectAtIndex:i];
         NSString* titleStr = [ttString stringByMatching:regEx capture:6L];
@@ -92,8 +92,8 @@
         [user.ttd.titleList addObject:articleTitle];
     }
     
-    NSString* notifName = [NSString stringWithFormat:@"NetCB%d", type];
-    SendNotification(notifName, nil);
+    NSString* ntfName = [NSString stringWithFormat:@"NetCB%d", type];
+    SendNotification(ntfName, nil);
 }
 
 @end

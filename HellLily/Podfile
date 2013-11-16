@@ -1,4 +1,4 @@
 platform :ios, '7.0'
-pod 'REFrostedViewController', :git => 'https://github.com/maybe/REFrostedViewController.git', :commit => '457c1e5287df752369588120e30262bf159221c8'
+pod 'REFrostedViewController', :git => 'https://github.com/maybe/REFrostedViewController.git', :commit => 'f938c82d267107092a3e8ec8cd0252fca516f072'
 pod 'AFNetworking', '~> 2.0'
 pod 'FMDB', '~> 2.0'

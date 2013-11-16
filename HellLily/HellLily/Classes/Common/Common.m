@@ -7,7 +7,6 @@
 //
 
 #import "Common.h"
-#import "NetManager.h"
 
 @implementation Common
 

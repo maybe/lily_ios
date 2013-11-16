@@ -7,10 +7,8 @@
 //
 
 #import "MenuController.h"
-#import "HomeController.h"
-#import "SecondViewController.h"
-#import "UIViewController+REFrostedViewController.h"
 #import "SettingController.h"
+#import "TopTenController.h"
 
 @implementation MenuController
 
@@ -93,7 +91,7 @@
     UINavigationController *navigationController = (UINavigationController *)self.frostedViewController.contentViewController;
     
     if (indexPath.section == 0 && indexPath.row == 0) {
-        HomeController *homeViewController = [[HomeController alloc] init];
+        TopTenController *homeViewController = [[TopTenController alloc] init];
         navigationController.viewControllers = @[homeViewController];
         [self.frostedViewController hideMenuViewController];
     } else {//if (indexPath.section == 1 && indexPath.row == 0) {
