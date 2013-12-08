@@ -21,8 +21,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self.view addGestureRecognizer:[[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panGestureRecognized:)]];
-    
+    UIPanGestureRecognizer* panGesture = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panGestureRecognized:)];
+    [self.view addGestureRecognizer:panGesture];
+    panGesture.delegate = self;
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(showSideMenu) name:@"ShowSideMenu" object:nil];
 }
 
@@ -39,7 +40,15 @@
 - (void)showSideMenu
 {
     [self.frostedViewController showContainerImmediately];
+}
 
+- (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)recognizer
+{
+  CGPoint point1 = [recognizer locationInView:self.view];
+  if (point1.x < 280) {
+    return NO;
+  }
+  return YES;
 }
 
 #pragma mark -

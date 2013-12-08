@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RootNaviController : UINavigationController
+@interface RootNaviController : UINavigationController<UIGestureRecognizerDelegate>
 
 - (void)showMenu;
 
